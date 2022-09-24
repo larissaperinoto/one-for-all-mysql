@@ -1,4 +1,4 @@
-SELECT DISTINCT
+SELECT
 	ar.nome AS artista,
   ab.titulo AS album,
   COUNT(se.artista_id) AS seguidores
